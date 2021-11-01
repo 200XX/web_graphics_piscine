@@ -4,6 +4,7 @@
 - Google, man page, 인터넷 등을 참고하세요.
 - html 파일은 [https://validator.w3.org/](https://validator.w3.org/)의 검증을 통과해야합니다.
 - css 파일은 [http://jigsaw.w3.org/css-validator/](http://jigsaw.w3.org/css-validator/)의 검증을 통과해야합니다.
+- 더미 텍스트를 생성하기 위해서 [loremipsum.io](https://loremipsum.io/)를 사용할 수 있습니다.
 
 ## Foreword
 
