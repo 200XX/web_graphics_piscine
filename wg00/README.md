@@ -6,6 +6,10 @@
 - css 파일은 [http://jigsaw.w3.org/css-validator/](http://jigsaw.w3.org/css-validator/)의 검증을 통과해야합니다.
 - 더미 텍스트를 생성하기 위해서 [loremipsum.io](https://loremipsum.io/)를 사용할 수 있습니다.
 
+- 학습 및 평가를 위해서 `lighttpd` 서버를 사용해야 합니다.
+  - MacOS: brew를 설치한 뒤 터미널에서 다음 명령어로 설치할 수 있습니다: `brew install lighttpd`
+  - Linux: `apt-get install lighttpd`
+
 ## Foreword
 
 ## Exercises
