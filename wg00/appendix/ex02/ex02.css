@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;700&display=swap');
+
+html {
+	font-size: 18px;
+	max-width: 100%;
+}
+
+html[lang="ko"] {
+	word-break: keep-all;
+}
+
+body {
+	color: #333;
+	font-family: 'IBM Plex Sans KR', sans-serif;
+	font-weight: 400;
+	margin: 0 auto;
+	max-width: 48rem;
+	line-height: 1.45;
+	padding: .25rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 700;
+}
+
+a {
+	color: blue;
+}
+
+a[href^="#"] {
+	text-decoration: none;
+	color: inherit;
+}
+
+a[href^="#"]:before {
+	content: "🔗 ";
+}
+
+a[href^="#"]:after {
+	content: none;
+}
+
+a:after {
+	content: "(" attr(href) ")";
+	font-size: 0.75rem;
+	color: #aaa;
+	display: inline-block;
+	text-decoration: none;
+}
+
+article {
+	border: 1px solid black;
+	padding: 1em;
+	margin: 2em 0;
+}
+
+li.green {
+	color: green !important;
+}
+
+#special {
+	color: white;
+	background-color: black;
+}
+
+p[lang|="en"] {
+	color: cornflowerblue;
+	word-break: break-word;
+}
+
+p.blockquote-information {
+	border: 1px solid #d7d7d7;
+	padding: 0.75em 1em;
+}
+
+code {
+	color: #333;
+	background-color: #d7d7d7;
+	font-family: monospace;
+	padding: 0.15em 0.25em;
+	white-space: nowrap;
+	word-wrap: break-word;
+}
+
+blockquote {
+	border-left: 2px solid #d7d7d7;
+	margin: 1em 0;
+	padding: 0 1em;
+}
+
+img,
+canvas,
+iframe,
+video,
+svg,
+select
+{
+	max-width: 100%;
+}
